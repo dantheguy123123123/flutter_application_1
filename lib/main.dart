@@ -20,9 +20,9 @@ build(BuildContext context)
       height: 50,
       decoration:
       BoxDecoration(color: Color.fromARGB(255, 53, 5, 5),
-        borderRadius: BorderRadius.circular(15),
+        borderRadius: BorderRadius.circular(10),
       ),
-      child: const Center( child: Text('Строка №1',
+      child: const Center( child: Text('Строка 1',
         textAlign: TextAlign.center,
         style: TextStyle(
           color: Colors.white,
@@ -38,9 +38,9 @@ build(BuildContext context)
         decoration: BoxDecoration(
           color: Color.fromARGB(255, 119, 129, 54
           ),
-        borderRadius: BorderRadius.circular(15
+        borderRadius: BorderRadius.circular(10
         ),
-        ), child: const Center( child: Text('Строка №2',
+        ), child: const Center( child: Text('Строка 2',
         textAlign: TextAlign.center,
         style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold,
         ),
@@ -50,10 +50,10 @@ build(BuildContext context)
       SizedBox(height: 10),
       Container( width: 200, height: 50,
         decoration: BoxDecoration( color: Color.fromARGB(255, 9, 55, 81),
-        borderRadius: BorderRadius.circular(15),
+        borderRadius: BorderRadius.circular(10),
         ),
         child: const Center(
-          child: Text('Строка №3',
+          child: Text('Строка 3',
           textAlign: TextAlign.center,
             style: TextStyle(color: Colors.white,
               fontWeight: FontWeight.bold,
@@ -66,10 +66,10 @@ build(BuildContext context)
         decoration: BoxDecoration(
           color: Color.fromARGB(255, 63, 19, 89
           ),
-          borderRadius: BorderRadius.circular(15),
+          borderRadius: BorderRadius.circular(10),
         ),
         child: const Center(
-          child: Text('Строка №4',
+          child: Text('Строка 4',
             textAlign: TextAlign.center,
             style: TextStyle(color: Colors.white, fontWeight:
             FontWeight.bold ), ), ), ), SizedBox(height: 10
@@ -79,8 +79,8 @@ build(BuildContext context)
         decoration: BoxDecoration(
           color: Color.fromARGB(255, 169, 53, 93
           ),
-          borderRadius: BorderRadius.circular(15),
-        ), child: const Center( child: Text('Строка №5',
+          borderRadius: BorderRadius.circular(10),
+        ), child: const Center( child: Text('Строка 5',
         textAlign: TextAlign.center, style:
         TextStyle(color: Colors.white,
           fontWeight: FontWeight.bold,
